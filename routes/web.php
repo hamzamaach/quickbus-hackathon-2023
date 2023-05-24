@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/bus-routes-maps',[App\Http\Controllers\BusRouteController::class,'index'])->name('dashboard');
+
+
+
 Route::get('login', array(LoginController::class,'login'))->name("auth.login");
 
 Route::post('doLogin',[LoginController::class,'doLogin'])->name("auth.doLogin");
