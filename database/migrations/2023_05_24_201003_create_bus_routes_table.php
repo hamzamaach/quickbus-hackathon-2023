@@ -14,10 +14,10 @@ return new class extends Migration
         Schema::create('bus_routes', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->float('start_latitude');
-            $table->float('start_longitude');
-            $table->float('end_latitude');
-            $table->float('end_longitude');
+            $table->string('start_latitude');
+            $table->string('start_longitude');
+            $table->string('end_latitude');
+            $table->string('end_longitude');
             $table->string('color');
             $table->timestamps();
         });

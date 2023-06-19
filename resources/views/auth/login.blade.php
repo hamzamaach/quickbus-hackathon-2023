@@ -13,9 +13,9 @@
                 </div>
                 <div class="form-group">
                     <label class="form-label" for="password">mot de pass</label>
-                    <input class="form-control" placeholder="mot de pass" name="password" id="password"/>
+                    <input class="form-control" placeholder="mot de pass" type="password" name="password" id="password"/>
                 </div>
-                <button type="submit" class="btn btn-primary mt-4 w-100">se connecter</button>
+                <button type="submit" class="btn btn-primary mt-4 w-100">Se connecter</button>
             </form>
         </div>
     </div>
